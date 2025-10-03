@@ -6,8 +6,7 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 // 1. Cerca un carattere in una stringa
 // Stampa l'INDICE con cui viene trovato
 // il carattere Y nella variabile city
-const cityIndex = city.search(/y/i); 
-/* Ho usato /y/ per cercare la lettera y e la i indica il case insensitive, cioè trova la y anche se è scritta in maiuscolo */
+const cityIndex = city.search("Y");
 console.log(cityIndex); // Output: 4
 
 // 2. Sottostringhe 
